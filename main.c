@@ -17,7 +17,7 @@ void cls_benchmark(){
         old[i] = i;
     }
 
-    curr_time[_ctx()] = timestamp_stop(time_handle[_ctx()]);
+    curr_time[__ctx()] = timestamp_stop(time_handle[__ctx()]);
 }
 
 
@@ -36,7 +36,7 @@ void ctm_benchmark(){
         old[i] = i;
     }
 
-    curr_time[_ctx()] = timestamp_stop(time_handle[_ctx()]);
+    curr_time[__ctx()] = timestamp_stop(time_handle[__ctx()]);
 }
 
 int main (){
