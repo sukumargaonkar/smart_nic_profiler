@@ -34,7 +34,7 @@
             }, 
             "targets": {
                 ".\\out\\profiler.list\\profiler.list": {
-                    "build_required": true, 
+                    "build_required": false, 
                     "input_files": {
                         "c_source_files": [
                             ".\\main.c"
@@ -85,6 +85,39 @@
                     "list_assignments": {
                         "i32.me0": [
                             "profiler.list"
+                        ], 
+                        "i32.me1": [
+                            "profiler.list"
+                        ], 
+                        "i32.me10": [
+                            "profiler.list"
+                        ], 
+                        "i32.me11": [
+                            "profiler.list"
+                        ], 
+                        "i32.me2": [
+                            "profiler.list"
+                        ], 
+                        "i32.me3": [
+                            "profiler.list"
+                        ], 
+                        "i32.me4": [
+                            "profiler.list"
+                        ], 
+                        "i32.me5": [
+                            "profiler.list"
+                        ], 
+                        "i32.me6": [
+                            "profiler.list"
+                        ], 
+                        "i32.me7": [
+                            "profiler.list"
+                        ], 
+                        "i32.me8": [
+                            "profiler.list"
+                        ], 
+                        "i32.me9": [
+                            "profiler.list"
                         ]
                     }, 
                     "settings": {
@@ -94,12 +127,12 @@
                         "elf_64": true, 
                         "fill": "default", 
                         "fill_enable": false, 
-                        "gen_mem_map_file": false, 
+                        "gen_mem_map_file": true, 
                         "gen_seg_h_file": false, 
                         "insert_nffwmip": false, 
                         "insert_rt_syms": false, 
                         "island_partial_fw_map": {}, 
-                        "map_file": ".\\profiler_panic_cloud_chip", 
+                        "map_file": ".\\profiler_panic_cloud_chip.map", 
                         "memories": {}, 
                         "nn_chains": {}, 
                         "produce_u_cstore_ecc": true, 
@@ -293,7 +326,7 @@
             }
         }, 
         "project_name": "profiler", 
-        "project_path": "E:\\Box\\workspace_arena\\NIC_projects\\profiler\\profiler.psproj", 
+        "project_path": "C:\\Users\\amogh\\OneDrive\\Desktop\\smart_nic_profiler\\profiler.psproj", 
         "sim_startup_options": {
             "imported_var_data_file": "", 
             "sim_profile_started": true, 

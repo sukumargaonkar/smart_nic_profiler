@@ -3,7 +3,7 @@
 
 
 void cls_benchmark(){
-    __declspec(cls) int old[500];
+    __declspec(cls) int old[100];
     __declspec(cls) int curr_time[8];
     __declspec(cls) int time_handle[8];
 
@@ -13,7 +13,7 @@ void cls_benchmark(){
     time_handle[__ctx()] = timestamp_start();
 
     size = sizeof(old)/sizeof(int);
-    for(i = 1;i < 500; i++) {
+    for(i = 1;i < 100; i++) {
         old[i] = i;
     }
 
@@ -22,7 +22,7 @@ void cls_benchmark(){
 
 
 void ctm_benchmark(){
-    __declspec(ctm) int old[500];
+    __declspec(ctm) int old[100];
     __declspec(ctm) int curr_time[8];
     __declspec(ctm) int time_handle[8];
 
@@ -32,7 +32,7 @@ void ctm_benchmark(){
     time_handle[__ctx()] = timestamp_start();
 
     size = sizeof(old)/sizeof(int);
-    for(i = 1;i < 500; i++) {
+    for(i = 1;i < 100; i++) {
         old[i] = i;
     }
 
@@ -40,7 +40,7 @@ void ctm_benchmark(){
 }
 
 void imem_benchmark(){
-    __declspec(imem) int old[500];
+    __declspec(imem) int old[100];
     __declspec(imem) int curr_time[8];
     __declspec(imem) int time_handle[8];
 
@@ -50,7 +50,7 @@ void imem_benchmark(){
     time_handle[__ctx()] = timestamp_start();
 
     size = sizeof(old)/sizeof(int);
-    for(i = 1;i < 500; i++) {
+    for(i = 1;i < 100; i++) {
         old[i] = i;
     }
 
@@ -58,7 +58,7 @@ void imem_benchmark(){
 }
 
 void emem_benchmark(){
-    __declspec(emem shared) int old[500];
+    __declspec(emem shared) int old[100];
     __declspec(emem shared) int curr_time[8];
     __declspec(emem shared) int time_handle[8];
 
@@ -68,7 +68,7 @@ void emem_benchmark(){
     time_handle[__ctx()] = timestamp_start();
 
     size = sizeof(old)/sizeof(int);
-    for(i = 1;i < 500; i++) {
+    for(i = 1;i < 100; i++) {
         old[i] = i;
     }
 
