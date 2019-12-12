@@ -81,7 +81,7 @@
                     "tool": "compiler"
                 }, 
                 ".\\panic_cloud_chip": {
-                    "build_required": true, 
+                    "build_required": false, 
                     "list_assignments": {
                         "i32.me0": [
                             "profiler.list"
@@ -326,7 +326,7 @@
             }
         }, 
         "project_name": "profiler", 
-        "project_path": "C:\\Users\\amogh\\OneDrive\\Desktop\\smart_nic_profiler\\profiler.psproj", 
+        "project_path": "E:\\Box\\workspace_arena\\NIC_projects\\smart_nic_profiler\\profiler.psproj", 
         "sim_startup_options": {
             "imported_var_data_file": "", 
             "sim_profile_started": true, 
