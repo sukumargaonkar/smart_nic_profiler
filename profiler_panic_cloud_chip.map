@@ -1,29 +1,14 @@
 Memory Map file: E:\Box\workspace_arena\NIC_projects\smart_nic_profiler\profiler_panic_cloud_chip.map
-Date: Thu Dec 12 17:16:46 2019
+Date: Thu Dec 12 19:53:08 2019
 
 nfld version: 6.0.4.1,  NFFW: E:\Box\workspace_arena\NIC_projects\smart_nic_profiler\panic_cloud_chip.nffw
 
 Address       Region     ByteSize        Symbol
 ===================================================
-0x0000000000000000    i12.cls       3200           	i12.me0.cls_32$tls
-0x0000000000000310    i12.ctm       3200           	i12.me0.ctm_40$tls
-0x0000000000000020    i29.imem      3200           	i12.me0.imem_40$tls
-0x0000000000800190    i24.emem      3200           	i12.me0.emem_40$tls
-0x0000000000800000    i24.emem      400            	i12.me0.old_1337.8.1248
-0x0000000000800000    i25.emem      32             	i12.me0.time_handle_1337.8.1248
-0x0000000000400000    i26.emem_cache  32             	i12.me0.time_handle_1327.8.1249
-0x0000000000000000    i28.imem      400            	i12.me0.old_1335.8.1250
-0x0000000000000000    i29.imem      32             	i12.me0.time_handle_1335.8.1250
-0x0000000000000190    i28.imem      32             	i12.me0.time_handle_1325.8.1251
-0x0000000000000c80    i12.cls       400            	i12.me0.old_1331.8.1252
-0x0000000000000e10    i12.cls       32             	i12.me0.time_handle_1331.8.1252
-0x0000000000000e30    i12.cls       32             	i12.me0.time_handle_1321.8.1253
-0x0000000000000000    i12.ctm       400            	i12.me0.old_1333.8.1254
-0x00000000000002d0    i12.ctm       32             	i12.me0.time_handle_1333.8.1254
-0x00000000000002f0    i12.ctm       32             	i12.me0.time_handle_1323.8.1255
-0x0000000000000190    i12.ctm       160            	i12.me0._runtime_shared
-0x0000000000000230    i12.ctm       160            	i12.me0._runtime
-0x00000000000001d0    i12.me0.lm    3200           	i12.me0.lmem$tls
+0x0000000000800000    i24.emem      400            	_global_emem
+0x0000000000000000    i32.ctm       200            	_emem_runtime
+0x0000000000000000    i28.imem      400            	_global_imem
+0x00000000000000d0    i32.ctm       200            	_imem_runtime
 
 ImportVar			Uninitialized Value
 ===================================================

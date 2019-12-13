@@ -25,7 +25,14 @@
                 "Options": [
                     "[WorkState_v1_2]", 
                     "ptn_Child1=Frames", 
-                    "ptn_Child2=ThreadWindows"
+                    "ptn_Child2=ThreadWindows", 
+                    "[WorkState_v1_2.ThreadWindows]", 
+                    "ptn_Child1=ThreadWindow0", 
+                    "[WorkState_v1_2.ThreadWindows.ThreadWindow0]", 
+                    "ThreadName=Thread0///panic_cloud_chip", 
+                    "Placement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPBOPPPPPPKBAAAAAAKBAAAAAADCEAAAAAODBAAAAA", 
+                    "TrackActiveThread=False", 
+                    "ShowListView=False"
                 ], 
                 "Type": 5
             }
@@ -169,337 +176,337 @@
                             "Displayed": true
                         }, 
                         "Microengine i12:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i12:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i12:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i13:0 Command": {
                             "Displayed": true
                         }, 
                         "Microengine i13:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i13:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i13:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i1:0 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i1:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i1:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i1:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i32:0 Command": {
                             "Displayed": true
                         }, 
                         "Microengine i32:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i32:10 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i32:11 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i32:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i32:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i32:4 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i32:5 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i32:6 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i32:7 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i32:8 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i32:9 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i33:0 Command": {
                             "Displayed": true
                         }, 
                         "Microengine i33:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i33:10 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i33:11 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i33:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i33:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i33:4 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i33:5 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i33:6 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i33:7 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i33:8 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i33:9 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i34:0 Command": {
                             "Displayed": true
                         }, 
                         "Microengine i34:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i34:10 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i34:11 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i34:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i34:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i34:4 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i34:5 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i34:6 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i34:7 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i34:8 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i34:9 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i35:0 Command": {
                             "Displayed": true
                         }, 
                         "Microengine i35:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i35:10 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i35:11 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i35:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i35:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i35:4 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i35:5 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i35:6 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i35:7 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i35:8 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i35:9 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i36:0 Command": {
                             "Displayed": true
                         }, 
                         "Microengine i36:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i36:10 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i36:11 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i36:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i36:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i36:4 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i36:5 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i36:6 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i36:7 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i36:8 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i36:9 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i37:0 Command": {
                             "Displayed": true
                         }, 
                         "Microengine i37:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i37:10 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i37:11 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i37:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i37:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i37:4 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i37:5 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i37:6 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i37:7 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i37:8 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i37:9 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i38:0 Command": {
                             "Displayed": true
                         }, 
                         "Microengine i38:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i38:10 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i38:11 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i38:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i38:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i38:4 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i38:5 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i38:6 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i38:7 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i38:8 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i38:9 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i48:0 Command": {
                             "Displayed": true
                         }, 
                         "Microengine i48:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i48:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i48:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i49:0 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i49:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i49:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i49:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i4:0 Command": {
                             "Displayed": true
                         }, 
                         "Microengine i4:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i4:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i4:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i5:0 Command": {
                             "Displayed": true
                         }, 
                         "Microengine i5:1 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i5:2 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "Microengine i5:3 Command": {
-                            "Displayed": true
+                            "Displayed": false
                         }, 
                         "NBI i8 Command": {
                             "Displayed": true
@@ -779,7 +786,7 @@
                                 }
                             }, 
                             "MicroEngineSliceHistory": {
-                                "single_me_test.list": {
+                                "multi_ME_single_thread.list": {
                                     "DisplayCollapsed": true, 
                                     "HistoryLabels": []
                                 }
@@ -995,7 +1002,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i13.me1": {
                             "MicroEngineContexts": {
@@ -1207,7 +1219,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i32.me1": {
                             "MicroEngineContexts": {
@@ -1843,7 +1860,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i33.me1": {
                             "MicroEngineContexts": {
@@ -2479,7 +2501,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i34.me1": {
                             "MicroEngineContexts": {
@@ -3115,7 +3142,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i35.me1": {
                             "MicroEngineContexts": {
@@ -3751,7 +3783,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i36.me1": {
                             "MicroEngineContexts": {
@@ -4387,7 +4424,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i37.me1": {
                             "MicroEngineContexts": {
@@ -5023,7 +5065,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i38.me1": {
                             "MicroEngineContexts": {
@@ -5611,7 +5658,7 @@
                         "i4.me0": {
                             "MicroEngineContexts": {
                                 "0": {
-                                    "ContextInview": false, 
+                                    "ContextInview": true, 
                                     "Displayed": true, 
                                     "LabelsDisplayed": false, 
                                     "ReferencesDisplayed": true
@@ -5659,7 +5706,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i4.me1": {
                             "MicroEngineContexts": {
@@ -5871,7 +5923,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i48.me1": {
                             "MicroEngineContexts": {
@@ -6083,7 +6140,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i49.me1": {
                             "MicroEngineContexts": {
@@ -6295,7 +6357,12 @@
                                     "ReferencesDisplayed": true
                                 }
                             }, 
-                            "MicroEngineSliceHistory": {}
+                            "MicroEngineSliceHistory": {
+                                "multi_ME_single_thread.list": {
+                                    "DisplayCollapsed": true, 
+                                    "HistoryLabels": []
+                                }
+                            }
                         }, 
                         "i5.me1": {
                             "MicroEngineContexts": {
@@ -6469,13 +6536,6 @@
         }, 
         "LocationBreakpoints": [], 
         "MemoryWatches": {
-            "i12.ctm[0:1023]": {
-                "Breakpoints": {}, 
-                "ChipName": "panic_cloud_chip", 
-                "ExpandedWatchItem": true, 
-                "NumberSubElements": 256, 
-                "UniqueWatchID": 2147483668
-            }, 
             "i26.emem_dc[0:1023]": {
                 "Breakpoints": {}, 
                 "ChipName": "panic_cloud_chip", 
@@ -6497,20 +6557,20 @@
                 "NumberSubElements": 1024, 
                 "UniqueWatchID": 2147483653
             }, 
-            "i32.ctm[4800:8659]": {
+            "i32.ctm[0:1027]": {
                 "Breakpoints": {}, 
                 "ChipName": "panic_cloud_chip", 
-                "ExpandedWatchItem": false, 
-                "NumberSubElements": 965, 
-                "UniqueWatchID": 2147483667
+                "ExpandedWatchItem": true, 
+                "NumberSubElements": 257, 
+                "UniqueWatchID": 2147483670
             }
         }, 
         "NBIPMModPipelines": {
             "8": {
-                "UniqueWatchID": 0
+                "UniqueWatchID": 2147483656
             }, 
             "9": {
-                "UniqueWatchID": 0
+                "UniqueWatchID": 2147483656
             }
         }, 
         "RunControlOptions": {}, 
@@ -6523,7 +6583,7 @@
             }
         }, 
         "SimulatorStartupOptions": {
-            "IslandIdsEnabled": "1,4,5,8,9,12,13,24,25,26,28,29,32,33,34,35,36,37,38,48,49", 
+            "IslandIdsEnabled": "1,4,5,12,13,32,33,34,35,36,37,38,48", 
             "ResetAndLoadMicrocode": true
         }, 
         "StatisticsOptions": {
@@ -6535,8 +6595,8 @@
         }, 
         "UniqueIDs": {
             "NextUniqueBreakpointGroupId": "0x80000000", 
-            "NextUniqueBreakpointId": "0x80000000", 
-            "NextUniqueWatchId": "0x80000015"
+            "NextUniqueBreakpointId": "0x8000000c", 
+            "NextUniqueWatchId": "0x80000017"
         }, 
         "WatchScriptsExeData": {}
     }

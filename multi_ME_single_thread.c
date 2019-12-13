@@ -1,111 +1,45 @@
 #include <nfp.h>
 #include <stdlib.h>
 
-__declspec(ctm shared) int runtime[40];
+__declspec(ctm32 export scope(global)) int emem_runtime[50];
+__declspec(ctm32 export scope(global)) int imem_runtime[50];
+__declspec(imem0 export scope(global)) int global_imem[100];
+__declspec(emem0 export scope(global)) int global_emem[100];
 
-void local_mem_benchmark(int idx){
-    __declspec(local_mem) int old[100];
-    //__declspec(ctm shared) int local_mem_curr_time[8];
-    __declspec(local_mem shared) int time_handle[8];
 
-    __declspec(local_mem) int i, size;
+void global_imem_benchmark(){
+    if(__ctx() == 0){
+        __declspec(local_mem shared) int time_handle;
+        __declspec(local_mem) int i;
 
-    runtime[idx + __ctx()] = -1;
-    time_handle[__ctx()] = timestamp_start();
+        imem_runtime[__island()] = -1;
+        time_handle = timestamp_start();
 
-    size = sizeof(old)/sizeof(int);
-    for(i = 1;i < 100; i++) {
-        old[i] = i;
+        for(i = 1;i < 100; i++) {
+            global_imem[i] = i;
+        }
+        imem_runtime[__island()] = timestamp_stop(time_handle);
     }
-
-    runtime[idx + __ctx()] = timestamp_stop(time_handle[__ctx()]);
 }
 
+void global_emem_benchmark(){
+    if(__ctx() == 0){
+        __declspec(local_mem shared) int time_handle;
+        __declspec(local_mem) int i;
 
-void cls_benchmark(int idx){
-    __declspec(cls) int old[100];
-    //__declspec(cls shared) int curr_time[8];
-    __declspec(cls shared) int time_handle[8];
+        emem_runtime[__island()] = -1;
+        time_handle = timestamp_start();
 
-    __declspec(local_mem) int i, size;
-    
-    runtime[idx + __ctx()] = -1;
-    time_handle[__ctx()] = timestamp_start();
+        for(i = 1;i < 100; i++) {
+            global_emem[i] = i;
+        }
 
-    size = sizeof(old)/sizeof(int);
-    for(i = 1;i < 100; i++) {
-        old[i] = i;
+        emem_runtime[__island()] = timestamp_stop(time_handle);
     }
-
-    runtime[idx + __ctx()] = timestamp_stop(time_handle[__ctx()]);
-}
-
-
-void ctm_benchmark(int idx){
-    __declspec(ctm) int old[100];
-    // __declspec(ctm shared) int curr_time[8];
-    __declspec(ctm shared) int time_handle[8];
-
-    __declspec(local_mem) int i, size;
-    
-    runtime[idx + __ctx()] = -1;
-    time_handle[__ctx()] = timestamp_start();
-
-    size = sizeof(old)/sizeof(int);
-    for(i = 1;i < 100; i++) {
-        old[i] = i;
-    }
-
-    runtime[idx + __ctx()] = timestamp_stop(time_handle[__ctx()]);
-}
-
-void imem_benchmark(int idx){
-    __declspec(imem) int old[100];
-    // __declspec(imem shared) int curr_time[8];
-    __declspec(imem shared) int time_handle[8];
-
-    __declspec(local_mem) int i, size;
-    
-    runtime[idx + __ctx()] = -1;
-    time_handle[__ctx()] = timestamp_start();
-
-    size = sizeof(old)/sizeof(int);
-    for(i = 1;i < 100; i++) {
-        old[i] = i;
-    }
-
-    runtime[idx + __ctx()] = timestamp_stop(time_handle[__ctx()]);
-}
-
-void emem_benchmark(int idx){
-    __declspec(emem) int old[100];
-    // __declspec(emem shared) int curr_time[8];
-    __declspec(emem shared) int time_handle[8];
-
-    int i, size;
-    
-    runtime[idx + __ctx()] = -1;
-    time_handle[__ctx()] = timestamp_start();
-
-    size = sizeof(old)/sizeof(int);
-    for(i = 1;i < 100; i++) {
-        old[i] = i;
-    }
-
-    runtime[idx + __ctx()] = timestamp_stop(time_handle[__ctx()]);
 }
 
 int main (){
-    //register_benchmark();
-    int idx = 0;
-    local_mem_benchmark(idx);
-    idx += 8;
-    ctm_benchmark(idx);
-    idx += 8;
-    cls_benchmark(idx);
-    idx += 8;
-    imem_benchmark(idx);
-    idx += 8;
-    emem_benchmark(idx);
+    global_imem_benchmark();
+    global_emem_benchmark();
     return 0;
 }
